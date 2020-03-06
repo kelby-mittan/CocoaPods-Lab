@@ -12,7 +12,7 @@ import Alamofire
 struct APIClient {
     
     static func fetchUsers(completion: @escaping (AFResult<[User]>) -> ()) {
-        let endpointURLString = "https://randomuser.me/api/?results=50"
+        let endpointURLString = "https://randomuser.me/api/?results=100"
         
         guard let url = URL(string: endpointURLString) else {
             return
