@@ -58,8 +58,11 @@ extension UsersViewController: UICollectionViewDataSource {
             fatalError("could not deque cell")
         }
         
-        
-        cell.backgroundColor = .orange
+        let user = randomUsers[indexPath.row]
+        cell.configureCell(for: user)
+        cell.userImage.clipsToBounds = true
+        cell.userImage.layer.cornerRadius = 10
+//        cell.backgroundColor = .orange
         return cell
     }
     
@@ -88,6 +91,8 @@ extension UsersViewController: UICollectionViewDelegateFlowLayout {
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
+        let user = randomUsers[indexPath.row]
+        let userDetailVC = UserDetailController(user)
+        navigationController?.present(userDetailVC, animated: true)
     }
 }

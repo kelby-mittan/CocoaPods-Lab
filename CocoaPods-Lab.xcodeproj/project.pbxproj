@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02674F9A2411DC5C0016F06C /* UserDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02674F992411DC5C0016F06C /* UserDetailController.swift */; };
 		02682EC82409C98A0064C354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02682EC72409C98A0064C354 /* AppDelegate.swift */; };
 		02682ECA2409C98A0064C354 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02682EC92409C98A0064C354 /* SceneDelegate.swift */; };
 		02682ED12409C9930064C354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02682ED02409C9930064C354 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02674F992411DC5C0016F06C /* UserDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailController.swift; sourceTree = "<group>"; };
 		02682EC42409C98A0064C354 /* CocoaPods-Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CocoaPods-Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02682EC72409C98A0064C354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02682EC92409C98A0064C354 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				026E33F52411A8A400529886 /* UsersViewController.swift */,
+				02674F992411DC5C0016F06C /* UserDetailController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				026E33F22411A66E00529886 /* UsersDetailView.swift in Sources */,
 				026E33EE2411A27100529886 /* Users.swift in Sources */,
 				026E33F82411A95600529886 /* CollectionViewCell.swift in Sources */,
+				02674F9A2411DC5C0016F06C /* UserDetailController.swift in Sources */,
 				02682EC82409C98A0064C354 /* AppDelegate.swift in Sources */,
 				026E33F62411A8A400529886 /* UsersViewController.swift in Sources */,
 				026E33F42411A79700529886 /* UsersCollectionView.swift in Sources */,
